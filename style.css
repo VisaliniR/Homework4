@@ -1,0 +1,35 @@
+body{
+    background-image: url(./image/nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    border: 5px solid red;
+    margin-left: 3px;
+    margin-right: 4px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    image-rendering: crisp-edges;
+}
+.item{
+    margin: 10px;
+    width: 750px;
+    height: 750px;
+    background-color: deepskyblue;
+    border: 1px solid red;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
+.name{
+    font-size: 100px;
+    border: 100px;
+    background-color: red;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
